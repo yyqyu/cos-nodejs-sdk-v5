@@ -21,9 +21,10 @@ npm i cos-nodejs-sdk-v5 --save
 ```javascript
 var COS = require('cos-nodejs-sdk-v5');
 var cos = new COS({
-    AppId: '1250000000',
-    SecretId: 'xxxxxxxxxxxxxxxxxxxxxxxxxxx',
-    SecretKey: 'xxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    AppId: '1253669060 ',
+    SecretId: 'AKIDvlRzPfuePCuTr5O0hDYihU7f7PWSP0Ws',
+    SecretKey: 'KUTH0b1SnxxmQtCLK9nGYfbM2ax9A1iI',
+
 });
 // 分片上传
 cos.sliceUploadFile({
